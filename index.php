@@ -85,3 +85,7 @@ get_header();
     </footer>
 </body>
 </html>
+<?php
+// Thema kosong HeadlessWordPress
+get_footer();
+?>
