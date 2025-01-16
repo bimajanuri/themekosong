@@ -81,11 +81,11 @@ get_header();
         <p>Apabila anda melihat halaman ini, berarti anda telah memasuki area terlarang</p>
     </div>
     <footer>
-        <p>&copy; 2025 Website Anda. Semua Hak Cipta Dilindungi.</p>
+        <?php
+            // Thema kosong HeadlessWordPress
+            get_footer();
+        ?>
     </footer>
 </body>
 </html>
-<?php
-// Thema kosong HeadlessWordPress
-get_footer();
-?>
+
