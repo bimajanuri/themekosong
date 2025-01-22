@@ -3,6 +3,7 @@
     {
         // Menambahkan dukungan untuk menu
         add_theme_support('menus');
+        add_theme_support('post-thumbnails');
 
         // Mendaftarkan lokasi menu
         register_nav_menus(array(
